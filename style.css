@@ -1,0 +1,147 @@
+/*
+    Theme Name:MyFirstTheme
+    Author: Fairlogs
+*/
+
+body {
+  margin: 0em;
+  padding: 0em;
+  font-family: "Courier New", Courier, monospace;
+  background-color: darksalmon;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0em;
+  padding: 0em;
+}
+
+p,
+ol,
+ul {
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/** HEADER */
+
+#header {
+  margin: 0em 0em 1em 0em;
+  padding: 0em 1em;
+  background-color: #cccccc;
+}
+
+#header h1 {
+  margin: 0em;
+  padding: 0em;
+  color: #ffffff;
+}
+
+#header h2 {
+  margin: 0em;
+  padding: 0em;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+/** MENU */
+
+#menu {
+  float: left;
+  width: 15%;
+  padding: 1em;
+}
+
+#menu ul {
+  margin: 0em;
+  padding: 0em;
+  list-style: none;
+  text-align: center;
+  line-height: 3em;
+}
+
+#menu li {
+}
+
+#menu a {
+}
+
+/** CONTENT */
+
+#content {
+  float: left;
+  width: 70%;
+}
+
+/** FOOTER */
+
+#footer {
+  clear: both;
+  padding: 0em 1em;
+  background-color: #cccccc;
+}
+
+#footer p {
+  margin: 0em;
+  padding: 0em;
+  font-weight: bold;
+  color: #ffffff;
+}
+.right {
+  width: max-content;
+  font-size: larger;
+}
+.theme-header {
+  text-align: center;
+  background-color: antiquewhite;
+}
+.wp-block-post {
+  width: 100%;
+}
+.wp-block-nav {
+  margin-left: 233px;
+}
+#search {
+  text-align: end;
+}
+.wp-block-para {
+  padding-bottom: 40px;
+}
+.blogfullTxt {
+  font-size: 25px;
+}
+.wp-page-para {
+  width: 800px;
+}
+.taglink {
+  display: flex;
+  list-style-type: none;
+}
+.blog-main {
+  margin-left: 235px;
+}
+.post-next-link {
+  margin-left: 849px;
+  margin-bottom: 40px;
+}
+.post-prev-link {
+  margin-left: 222px;
+  margin-bottom: 40px;
+}
